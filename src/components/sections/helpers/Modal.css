@@ -1,0 +1,16 @@
+.modal {
+  background: rgb(255, 255, 255);
+  border: solid 1px rgba(0, 0, 0, 0.3);
+  color: rgb(148, 45, 45);
+  box-shadow: 20px 20px 10px rgb(170, 170, 170);
+  margin: 2rem;
+}
+
+.modal-close {
+  background: rgb(0, 255, 255);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: .25rem;
+  font-size: 1rem;
+  cursor: pointer;
+}

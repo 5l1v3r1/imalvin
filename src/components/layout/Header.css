@@ -1,0 +1,125 @@
+.header-container {
+  background-color: rgba(0, 255, 255, .03);
+  min-height: 1.6rem;
+  padding: .75rem 0 .45rem 0;
+  border-bottom: rgb(0, 206, 209) solid 1px;
+  transition: border-bottom-right-radius 500ms;
+}
+
+.header-group {
+  margin: 0 20%;
+}
+
+.header-group-item {
+  display: inline-block;
+}
+
+.header-group-item:last-child {
+  float: right;
+}
+
+.header-group-item-link,
+.header-group-item-link:focus {
+  display: inline-block;
+  padding: .25rem 1.25rem;
+}
+
+.header-responsive-menu-wrapper {
+  background-color: rgb(0, 206, 209);
+  display: inline-block;
+  border-radius: 500px;
+	margin: .25rem 1rem 0 1rem;
+	position: relative;
+  padding: 8px;
+  cursor:pointer;
+}
+
+.header-responsive-menu {
+  width: 20px;
+	height: 20px;
+	position:relative;
+}
+
+.header-responsive-menu-item {
+	position: absolute;
+	height: 1px;
+	width:100%;
+	background-color:white;
+	border-radius: 100px;
+	transition: all cubic-bezier(0.25, 0.1, 0.28, 1.54) 0.32s;
+}
+
+.header-responsive-menu-item-1 {
+	top:19%;
+}
+
+.header-responsive-menu-item-2 {
+	top:49%;
+}
+
+.header-responsive-menu-item-3 {
+	top:79%;
+}
+
+.menu.close .header-responsive-menu-item-1 {
+	transform:rotate(45deg);
+	top:49%;
+}
+
+.menu.close .header-responsive-menu-item-2,
+.menu.close .header-responsive-menu-item-3 {
+	transform:rotate(-45deg);
+	top:49%;
+}
+
+.open {
+  border-bottom-right-radius: 100%;
+  transition: border-bottom-right-radius 500ms;
+}
+
+@media (max-width: 992px) {
+  .header-group {
+    margin: 0 10%;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-group {
+    margin: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .header-container {
+    padding: 0;
+  }
+
+  .header-group {
+    padding: 0 1rem;
+  }
+
+  .header-group-item {
+    display: block;
+  }
+
+  .header-group-item:last-child {
+    float: unset;
+  }
+
+  .header-group-item-link,
+  .header-group-item-link:focus {
+    margin: 1rem 0;
+    padding: 0;
+    text-indent: -5px;
+  }
+
+  .header-group-item-link:before {
+    content: "- ";
+    text-indent: -5px;
+  }
+
+  .header-group-item:first-child {
+    margin-top: .2rem;
+    border-top: solid 1px rgba(0, 0, 0, .3);
+  }
+}

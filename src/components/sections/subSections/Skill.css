@@ -1,0 +1,32 @@
+.skills-group-item {
+  flex: 1 0 21%;
+  margin: 4rem;
+}
+
+.skills-group-item-container {
+  margin-bottom: .85rem;
+}
+
+.skills-group-item-heading-3 {
+  font-weight: 100;
+  font-size: 1.2rem;
+  margin-bottom: .35rem;
+}
+
+.skills-group-item-paragraph {
+  font-weight: 100;
+  font-size: .9rem;
+  color: rgba(255, 255, 255, .75);
+}
+
+.skills-icon {
+  margin-bottom: .75rem;
+  filter: invert(91%) sepia(91%) saturate(38%) hue-rotate(335deg) brightness(109%) contrast(111%);
+}
+
+@media (max-width: 576px) {
+  .skills-group-item {
+    flex: 1 0 50%;
+    margin: 2rem;
+  }
+}

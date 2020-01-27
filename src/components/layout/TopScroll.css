@@ -1,0 +1,20 @@
+.scroll-top-btn {
+  background-color: rgb(0, 206, 209);
+  color: rgb(255, 255, 255);
+  border-color: transparent;
+  border-radius: 2px;
+  outline: none;
+  position: fixed;
+  z-index: 999;
+  height: 1.5rem;
+  width: 1.5rem;
+  right: 2.5%;
+  transition: 250ms;
+  opacity: 0;
+}
+
+.show {
+  opacity: 1;
+  transition: 250ms;
+  cursor: pointer;
+}
