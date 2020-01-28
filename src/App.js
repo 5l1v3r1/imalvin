@@ -11,7 +11,7 @@ import './App.css';
 function App() {
   return (
     <Provider store={store}>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div className='App'>
           <Switch>
             <Route exact path='/' component={Home}></Route>
