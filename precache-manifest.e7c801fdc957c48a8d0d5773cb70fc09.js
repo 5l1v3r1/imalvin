@@ -1,35 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "377071ce4e5fcea58303f6022a861a44",
+    "revision": "710b5c14332365de3eb42f32bb6f1ede",
     "url": "/imalvin/index.html"
   },
   {
-    "revision": "7dd11453f2b2910fe5ae",
+    "revision": "614b3d3f7ddb5cd4a67a",
     "url": "/imalvin/static/css/2.0559008f.chunk.css"
   },
   {
-    "revision": "51b94d3ce5b9d69d76db",
-    "url": "/imalvin/static/css/main.d0be8151.chunk.css"
+    "revision": "2e2024c2fb503d3a68ba",
+    "url": "/imalvin/static/css/main.366743f5.chunk.css"
   },
   {
-    "revision": "7dd11453f2b2910fe5ae",
-    "url": "/imalvin/static/js/2.57ac5c33.chunk.js"
+    "revision": "614b3d3f7ddb5cd4a67a",
+    "url": "/imalvin/static/js/2.86774268.chunk.js"
   },
   {
     "revision": "a0061a83d9d70252a73cf7df602028e8",
-    "url": "/imalvin/static/js/2.57ac5c33.chunk.js.LICENSE"
+    "url": "/imalvin/static/js/2.86774268.chunk.js.LICENSE"
   },
   {
-    "revision": "51b94d3ce5b9d69d76db",
-    "url": "/imalvin/static/js/main.28a7fce2.chunk.js"
+    "revision": "2e2024c2fb503d3a68ba",
+    "url": "/imalvin/static/js/main.02c8a6ca.chunk.js"
   },
   {
     "revision": "fd33a2f72b88266fbeae",
     "url": "/imalvin/static/js/runtime-main.07483eea.js"
-  },
-  {
-    "revision": "732966db727847d12b6acc89fec30ac4",
-    "url": "/imalvin/static/media/alvin.732966db.png"
   },
   {
     "revision": "64d093d04c073b253b24125285b0861e",
@@ -52,6 +48,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/imalvin/static/media/desktop.77fb110c.svg"
   },
   {
+    "revision": "8663fdcb138aefd6fde3e2531e95aa92",
+    "url": "/imalvin/static/media/eagle_eyes.8663fdcb.png"
+  },
+  {
     "revision": "3d937f7f0642eb139088c349ba6673bf",
     "url": "/imalvin/static/media/ff15_boosting.3d937f7f.mp4"
   },
@@ -62,6 +62,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4ba69538efb2830a8fe502eaf615f6cc",
     "url": "/imalvin/static/media/mobile.4ba69538.svg"
+  },
+  {
+    "revision": "4b2df378f1a320ef18b5db61988b080a",
+    "url": "/imalvin/static/media/neorat.4b2df378.png"
   },
   {
     "revision": "eb9d79c982c258ab0a361d5099b1f8be",
