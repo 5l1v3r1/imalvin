@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/imalvin/static/css/main.366743f5.chunk.css",
+    "main.css": "/imalvin/static/css/main.897bce01.chunk.css",
     "main.js": "/imalvin/static/js/main.02c8a6ca.chunk.js",
     "main.js.map": "/imalvin/static/js/main.02c8a6ca.chunk.js.map",
     "runtime-main.js": "/imalvin/static/js/runtime-main.07483eea.js",
@@ -9,10 +9,10 @@
     "static/js/2.86774268.chunk.js": "/imalvin/static/js/2.86774268.chunk.js",
     "static/js/2.86774268.chunk.js.map": "/imalvin/static/js/2.86774268.chunk.js.map",
     "index.html": "/imalvin/index.html",
-    "precache-manifest.e7c801fdc957c48a8d0d5773cb70fc09.js": "/imalvin/precache-manifest.e7c801fdc957c48a8d0d5773cb70fc09.js",
+    "precache-manifest.aa87076d26e8c7a284189a02684e3dfa.js": "/imalvin/precache-manifest.aa87076d26e8c7a284189a02684e3dfa.js",
     "service-worker.js": "/imalvin/service-worker.js",
     "static/css/2.0559008f.chunk.css.map": "/imalvin/static/css/2.0559008f.chunk.css.map",
-    "static/css/main.366743f5.chunk.css.map": "/imalvin/static/css/main.366743f5.chunk.css.map",
+    "static/css/main.897bce01.chunk.css.map": "/imalvin/static/css/main.897bce01.chunk.css.map",
     "static/js/2.86774268.chunk.js.LICENSE": "/imalvin/static/js/2.86774268.chunk.js.LICENSE",
     "static/media/alvin_media.png": "/imalvin/static/media/alvin_media.64d093d0.png",
     "static/media/alvin_media.mp4": "/imalvin/static/media/alvin_media.e3d17ae2.mp4",
@@ -33,7 +33,7 @@
     "static/js/runtime-main.07483eea.js",
     "static/css/2.0559008f.chunk.css",
     "static/js/2.86774268.chunk.js",
-    "static/css/main.366743f5.chunk.css",
+    "static/css/main.897bce01.chunk.css",
     "static/js/main.02c8a6ca.chunk.js"
   ]
 }

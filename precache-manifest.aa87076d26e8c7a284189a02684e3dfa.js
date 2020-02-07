@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "710b5c14332365de3eb42f32bb6f1ede",
+    "revision": "4d5b0d9ec20eeb9a4f8a98add0b6121f",
     "url": "/imalvin/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/imalvin/static/css/2.0559008f.chunk.css"
   },
   {
-    "revision": "2e2024c2fb503d3a68ba",
-    "url": "/imalvin/static/css/main.366743f5.chunk.css"
+    "revision": "74294a47c9f5f1ad3702",
+    "url": "/imalvin/static/css/main.897bce01.chunk.css"
   },
   {
     "revision": "614b3d3f7ddb5cd4a67a",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/imalvin/static/js/2.86774268.chunk.js.LICENSE"
   },
   {
-    "revision": "2e2024c2fb503d3a68ba",
+    "revision": "74294a47c9f5f1ad3702",
     "url": "/imalvin/static/js/main.02c8a6ca.chunk.js"
   },
   {
