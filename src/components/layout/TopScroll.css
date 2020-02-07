@@ -9,6 +9,7 @@
   height: 1.5rem;
   width: 1.5rem;
   right: 2.5%;
+  padding: .25rem .5rem;
   transition: 250ms;
   opacity: 0;
 }

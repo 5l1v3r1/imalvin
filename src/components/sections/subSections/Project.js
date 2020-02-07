@@ -17,7 +17,7 @@ class Project extends Component {
           <img className="project-item-card-image" src={image} alt={title + ' Image'} />
         </div>
         <div className="project-item-card-container">
-          <p className="projects-item-card-paragraph">{text}</p>
+          <p className="projects-item-card-paragraph" dangerouslySetInnerHTML={{ __html: text}} />
         </div>
         <div className="project-item-card-container">
           <div className="project-item-card-action-container">

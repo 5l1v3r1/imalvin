@@ -63,7 +63,7 @@ class Projects extends Component {
               </Modal>
             ) : (
               <Slider {...carouselSettings}>
-                {this.props.projects.map((project, index) => <Project key={index} showModal={this.showModal} image={project.image} video={project.video} title={project.title} text={project.text} type={project.type} tools={project.tools} onVideo={project.onVideo} onGithub={project.onGithub} github={this.props.contactInfo.github} />)}
+                {this.props.projects.map((project, index) => <Project key={index} showModal={this.showModal} image={project.image} video={project.video} title={project.title} text={project.text} type={project.type} tools={project.tools} onVideo={project.onVideo} onGithub={project.onGithub} github={this.props.github} />)}
               </Slider>
             )}
           </div>
@@ -75,7 +75,7 @@ class Projects extends Component {
 
 Projects.propTypes = {
   projects: PropTypes.array.isRequired,
-  contactInfo: PropTypes.object.isRequired
+  github: PropTypes.string.isRequired
 };
 
 export default Projects;

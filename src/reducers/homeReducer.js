@@ -7,7 +7,8 @@ import deployment from '../public/svg/deployment.svg';
 import planning from '../public/svg/planning.svg';
 import collaboration from '../public/svg/collaboration.svg';
 
-import consoleImage from '../public/images/alvin.png';
+import consoleImage from '../public/images/neorat.png';
+import consoleImage2 from '../public/images/eagle_eyes.png';
 import webImage from '../public/images/ff_15_boosting.png';
 import webImage2 from '../public/images/alvin_media.png';
 
@@ -54,8 +55,18 @@ const initialState = {
     {
       image: consoleImage,
       video: null,
-      title: 'Alvin',
-      text: 'A low level networking protocol built upon the TCP protocol. Gives command to control power from the server managing multiple connected computers & automatically storing all collected data.',
+      title: 'NeoRAT',
+      text: 'NeoRAT is the successor of Eagle-Eyes, providing a more stable & organized experience. NeoRAT is built for C2 of clients & easy ways of providing reliable & feature rich data gathering techniques.',
+      type: 'Console',
+      tools: ['Python', 'Sockets'],
+      onVideo: false,
+      onGithub: true
+    },
+    {
+      image: consoleImage2,
+      video: null,
+      title: 'Eagle-Eyes',
+      text: 'Eagle Eyes is a powerful low level TCP networking RAT. Supporting desktop streaming, webcam streaming, audio listening, keylogging & more available from its CLI.<br /><br />',
       type: 'Console',
       tools: ['Python', 'Sockets'],
       onVideo: false,
@@ -240,7 +251,7 @@ const initialState = {
             },
             {
               name: 'Programming 1',
-              grade: 'C'
+              grade: 'B'
             }
           ]
         }

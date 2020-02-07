@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-scroll';
 import classNames from 'classnames';
 
 import './TopScroll.css';
@@ -25,7 +26,7 @@ class TopScroll extends Component {
 
   render() {
     return (
-      <button onClick={() => window.scrollTo({top: 0, left: 0, behavior: 'smooth' })} className={classNames('scroll-top-btn', {show: this.state.scrolledHeight > 0 ? true : false})} style={{bottom: this.state.screenWidth * .025 + 'px'}}><i className="fas fa-angle-up"></i></button>
+      <Link to="header" spy={true} smooth={true} duration={500} className={classNames('scroll-top-btn', {show: this.state.scrolledHeight > 0 ? true : false})} style={{bottom: this.state.screenWidth * .025 + 'px'}}><i className="fas fa-angle-up"></i></Link>
     )
   }
 }

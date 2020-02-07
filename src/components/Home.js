@@ -25,7 +25,7 @@ class Home extends Component {
         <Header />
         <FrontPage frontPage={frontPage} />
         <Skills skills={skills} />
-        <Projects projects={projects} contactInfo={contactInfo} />
+        <Projects projects={projects} github={contactInfo.github} />
         <Educations educations={educations} />
         <Footer contactInfo={contactInfo} />
       </Fragment>
